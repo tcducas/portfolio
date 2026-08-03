@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thales — Desenvolvedor Backend & IA</title>
+  <meta name="description" content="Thales, desenvolvedor backend em formação, focado em Python, Django, APIs REST, IA generativa e automação de processos." />
+
+  <!-- Open Graph / preview em redes sociais -->
+  <meta property="og:title" content="Thales — Desenvolvedor Backend & IA" />
+  <meta property="og:description" content="Portfólio de projetos em Python, Django, REST APIs, React Native e IA generativa." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:," />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#top" class="navbar__logo">Thales<span class="accent">.</span></a>
+      <nav class="navbar__links" id="navLinks">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#skills">Skills</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="#contato" class="btn btn--primary btn--sm">Contato</a>
+      <button class="navbar__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <p class="eyebrow">Backend & IA</p>
+        <h1 class="hero__title">Thales</h1>
+        <p class="hero__subtitle">Desenvolvedor Backend &amp; IA</p>
+        <p class="hero__lead">
+          Construo APIs robustas e produtos com IA aplicada — do backend em Django
+          à automação de processos com IA generativa.
+        </p>
+        <div class="hero__actions">
+          <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+          <!-- PLACEHOLDER: troque pelo seu e-mail real -->
+          <a href="mailto:seu-email@exemplo.com" class="btn btn--ghost">Entrar em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <p class="section__eyebrow">Sobre</p>
+        <h2 class="section__title">Trajetória</h2>
+        <p class="about__text">
+          Estou no último semestre de Análise e Desenvolvimento de Sistemas (ADS) na ENIAC,
+          em São Paulo. Atualmente atuo como estagiário em desenvolvimento backend, trabalhando
+          com Python, Django, APIs REST e chatbots com IA generativa para e-commerce.
+        </p>
+        <p class="about__text">
+          Meu foco está em análise de dados, IA e automação de processos — com o objetivo de
+          crescer no mercado corporativo e, em paralelo, expandir para projetos freelance.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section section--alt" id="projetos">
+      <div class="container">
+        <p class="section__eyebrow">Projetos</p>
+        <h2 class="section__title">Projetos em destaque</h2>
+
+        <div class="projects__grid">
+
+          <article class="project-card">
+            <div class="project-card__body">
+              <h3 class="project-card__title">Doa+</h3>
+              <p class="project-card__desc">
+                API REST para gestão de doações de ONGs, com autenticação, documentação
+                interativa e cobertura de testes automatizados.
+              </p>
+              <ul class="tag-list">
+                <li class="tag">Django 5</li>
+                <li class="tag">DRF</li>
+                <li class="tag">PostgreSQL</li>
+                <li class="tag">JWT</li>
+                <li class="tag">Swagger UI</li>
+                <li class="tag">Pytest</li>
+                <li class="tag">Docker Compose</li>
+              </ul>
+            </div>
+            <div class="project-card__footer">
+              <!-- PLACEHOLDER: troque pelo link real do repositório no GitHub -->
+              <a href="https://github.com/seu-usuario/doa-mais" class="btn btn--outline btn--sm" target="_blank" rel="noopener noreferrer">
+                Ver no GitHub
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__body">
+              <h3 class="project-card__title">Meu Caixa</h3>
+              <p class="project-card__desc">
+                App mobile de fluxo de caixa para microempreendedores, com persistência
+                local, login por PIN e recomendação de investimentos.
+              </p>
+              <ul class="tag-list">
+                <li class="tag">React Native</li>
+                <li class="tag">Expo</li>
+                <li class="tag">SQLite</li>
+                <li class="tag">AsyncStorage</li>
+              </ul>
+            </div>
+            <div class="project-card__footer">
+              <!-- PLACEHOLDER: troque pelo link real do repositório no GitHub -->
+              <a href="https://github.com/seu-usuario/meu-caixa" class="btn btn--outline btn--sm" target="_blank" rel="noopener noreferrer">
+                Ver no GitHub
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__body">
+              <h3 class="project-card__title">Aura Finance</h3>
+              <p class="project-card__desc">
+                Copiloto de finanças pessoais com IA, que orienta o usuário sobre
+                investimentos sem executar operações — o app direciona, não executa.
+              </p>
+              <ul class="tag-list">
+                <li class="tag">React 19</li>
+                <li class="tag">Vite</li>
+                <li class="tag">Express</li>
+                <li class="tag">Supabase</li>
+                <li class="tag">Claude</li>
+                <li class="tag">Gemini</li>
+              </ul>
+            </div>
+            <div class="project-card__footer">
+              <!-- PLACEHOLDER: troque pelo link real do repositório no GitHub -->
+              <a href="https://github.com/seu-usuario/aura-finance" class="btn btn--outline btn--sm" target="_blank" rel="noopener noreferrer">
+                Ver no GitHub
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section__eyebrow">Skills</p>
+        <h2 class="section__title">Tecnologias &amp; ferramentas</h2>
+        <ul class="skills__grid">
+          <li class="skill-pill">Python</li>
+          <li class="skill-pill">Django</li>
+          <li class="skill-pill">Django REST Framework</li>
+          <li class="skill-pill">APIs REST</li>
+          <li class="skill-pill">React</li>
+          <li class="skill-pill">React Native</li>
+          <li class="skill-pill">PostgreSQL</li>
+          <li class="skill-pill">IA generativa &amp; chatbots</li>
+          <li class="skill-pill">Automação de processos</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section section--alt" id="contato">
+      <div class="container contact">
+        <p class="section__eyebrow">Contato</p>
+        <h2 class="section__title">Vamos conversar</h2>
+        <p class="contact__lead">
+          Aberto a oportunidades de estágio, efetivo ou projetos freelance.
+        </p>
+        <div class="contact__links">
+          <!-- PLACEHOLDER: troque pelos seus links reais -->
+          <a href="https://www.linkedin.com/in/seu-usuario" class="contact__link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/seu-usuario" class="contact__link" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="mailto:seu-email@exemplo.com" class="contact__link">E-mail</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> Thales. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
