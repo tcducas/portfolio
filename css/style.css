@@ -149,7 +149,7 @@ ul {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(10, 10, 12, 0.72);
+  background: rgba(13, 7, 4, 0.7);
   backdrop-filter: saturate(180%) blur(14px);
   border-bottom: 1px solid var(--border);
 }
@@ -402,7 +402,9 @@ ul {
 }
 
 .section--alt {
-  background: var(--bg-alt);
+  background: rgba(255, 255, 255, 0.015);
+  border-top: 1px solid var(--border-glass);
+  border-bottom: 1px solid var(--border-glass);
 }
 
 .section__title {
