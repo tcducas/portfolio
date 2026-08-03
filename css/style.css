@@ -4,14 +4,14 @@
    Troque --accent aqui se quiser outra cor de destaque
    ========================================= */
 :root {
-  --bg: #0A0A0C;
-  --bg-alt: #101013;
-  --surface: #16171B;
-  --surface-glass: rgba(22, 23, 27, 0.55);
-  --border: #26272C;
-  --border-glass: rgba(255, 255, 255, 0.08);
+  --bg: #0D0704;
+  --bg-alt: #170E09;
+  --surface: #1C130D;
+  --surface-glass: rgba(28, 19, 13, 0.55);
+  --border: #33241A;
+  --border-glass: rgba(255, 224, 194, 0.09);
   --text: #F2F2F4;
-  --text-muted: #9A9BA3;
+  --text-muted: #A9A29B;
   --accent: #FF4D2E;
   --accent-2: #FF8A3D;
   --accent-hover: #FF6B47;
@@ -44,10 +44,15 @@ html {
 
 body {
   font-family: var(--font-body);
-  background:
-    radial-gradient(ellipse 900px 500px at 15% -10%, rgba(255, 77, 46, 0.16), transparent 60%),
-    radial-gradient(ellipse 700px 400px at 100% 10%, rgba(255, 138, 61, 0.09), transparent 55%),
-    var(--bg);
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse 750px 750px at 92% 6%, rgba(255, 196, 92, 0.5), transparent 62%),
+    radial-gradient(ellipse 1000px 800px at 28% 38%, rgba(214, 78, 30, 0.42), transparent 62%),
+    radial-gradient(ellipse 800px 600px at 2% 98%, rgba(255, 138, 61, 0.26), transparent 58%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.045 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: no-repeat, no-repeat, no-repeat, repeat;
+  background-size: auto, auto, auto, 200px 200px;
+  background-attachment: fixed, fixed, fixed, fixed;
   color: var(--text);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
