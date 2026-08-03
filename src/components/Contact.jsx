@@ -40,9 +40,8 @@ export default function Contact() {
           whileInView="show"
           viewport={revealViewport}
         >
-          {/* PLACEHOLDER: troque pelos seus links reais */}
           <a
-            href="https://www.linkedin.com/in/seu-usuario"
+            href="https://www.linkedin.com/in/thales-c-ducas"
             className={styles.link}
             target="_blank"
             rel="noopener noreferrer"
@@ -50,14 +49,14 @@ export default function Contact() {
             LinkedIn
           </a>
           <a
-            href="https://github.com/seu-usuario"
+            href="https://github.com/tcducas"
             className={styles.link}
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
           </a>
-          <a href="mailto:seu-email@exemplo.com" className={styles.link}>
+          <a href="mailto:thacanducas@icloud.com" className={styles.link}>
             E-mail
           </a>
         </motion.div>

@@ -42,8 +42,7 @@ export default function Hero() {
             <Button href="#projetos" variant="primary">
               Ver projetos
             </Button>
-            {/* PLACEHOLDER: troque pelo seu e-mail real */}
-            <Button href="mailto:seu-email@exemplo.com" variant="ghost">
+            <Button href="mailto:thacanducas@icloud.com" variant="ghost">
               Entrar em contato
             </Button>
           </motion.div>
