@@ -1,0 +1,10 @@
+.text {
+  max-width: 680px;
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.text:last-child {
+  margin-bottom: 0;
+}

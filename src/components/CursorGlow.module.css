@@ -1,0 +1,14 @@
+.glow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 420px;
+  height: 420px;
+  margin-left: -210px;
+  margin-top: -210px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--accent-glow), transparent 70%);
+  pointer-events: none;
+  z-index: 5;
+  mix-blend-mode: screen;
+}
