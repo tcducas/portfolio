@@ -7,25 +7,27 @@
 
 .photoWrap {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .photoWrap::before {
   content: '';
   position: absolute;
-  inset: -20px;
-  background: radial-gradient(circle, var(--accent-glow), transparent 70%);
-  filter: blur(40px);
+  inset: -40px;
+  background: radial-gradient(circle, var(--accent-glow), transparent 65%);
+  filter: blur(50px);
   z-index: -1;
 }
 
 .photo {
   width: 100%;
-  max-width: 340px;
+  max-width: 400px;
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--border-glass);
-  box-shadow: var(--shadow-md);
+  /* Sem moldura: a foto se dissolve no fundo via máscara de gradiente */
+  -webkit-mask-image: radial-gradient(ellipse 58% 78% at 50% 36%, black 30%, transparent 96%);
+  mask-image: radial-gradient(ellipse 58% 78% at 50% 36%, black 30%, transparent 96%);
 }
 
 .text {
