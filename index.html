@@ -40,18 +40,44 @@
   <main>
     <!-- HERO -->
     <section class="hero" id="top">
-      <div class="container hero__inner">
-        <p class="eyebrow hero-anim hero-anim--1">Backend & IA</p>
-        <h1 class="hero__title hero-anim hero-anim--2">Thales</h1>
-        <p class="hero__subtitle hero-anim hero-anim--2">Desenvolvedor Backend &amp; IA</p>
-        <p class="hero__lead hero-anim hero-anim--3">
-          Construo APIs robustas e produtos com IA aplicada — do backend em Django
-          à automação de processos com IA generativa.
-        </p>
-        <div class="hero__actions hero-anim hero-anim--4">
-          <a href="#projetos" class="btn btn--primary">Ver projetos</a>
-          <!-- PLACEHOLDER: troque pelo seu e-mail real -->
-          <a href="mailto:seu-email@exemplo.com" class="btn btn--ghost">Entrar em contato</a>
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow hero-anim hero-anim--1">Backend & IA</p>
+          <h1 class="hero__title hero-anim hero-anim--2">Thales</h1>
+          <p class="hero__subtitle hero-anim hero-anim--2">Desenvolvedor Backend &amp; IA</p>
+          <p class="hero__lead hero-anim hero-anim--3">
+            Construo APIs robustas e produtos com IA aplicada — do backend em Django
+            à automação de processos com IA generativa.
+          </p>
+          <div class="hero__actions hero-anim hero-anim--4">
+            <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+            <!-- PLACEHOLDER: troque pelo seu e-mail real -->
+            <a href="mailto:seu-email@exemplo.com" class="btn btn--ghost">Entrar em contato</a>
+          </div>
+        </div>
+
+        <!--
+          PLACEHOLDER VISUAL: mockup de código no lugar de uma foto.
+          Quando tiver uma foto profissional, troque todo o bloco abaixo por:
+          <img src="assets/foto.jpg" alt="Thales" class="hero__photo">
+        -->
+        <div class="hero__visual hero-anim hero-anim--3" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-window__header">
+              <span class="code-window__dot code-window__dot--red"></span>
+              <span class="code-window__dot code-window__dot--yellow"></span>
+              <span class="code-window__dot code-window__dot--green"></span>
+            </div>
+            <pre class="code-window__body"><code><span class="tok-kw">from</span> rest_framework <span class="tok-kw">import</span> viewsets
+
+<span class="tok-kw">class</span> <span class="tok-fn">DoacaoViewSet</span>(viewsets.ModelViewSet):
+    queryset = Doacao.objects.<span class="tok-fn">all</span>()
+    serializer_class = DoacaoSerializer
+
+    <span class="tok-kw">def</span> <span class="tok-fn">perform_create</span>(<span class="tok-plain">self</span>, serializer):
+        <span class="tok-com"># roteia para o agente de IA</span>
+        serializer.<span class="tok-fn">save</span>(status=<span class="tok-str">"pendente"</span>)<span class="code-window__cursor"></span></code></pre>
+          </div>
         </div>
       </div>
     </section>
