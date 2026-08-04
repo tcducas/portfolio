@@ -72,11 +72,13 @@ export default function ProjectCard({ project }) {
         </AnimatePresence>
       </div>
 
-      <div className={styles.footer}>
-        <Button href={project.repoUrl} variant="outline" size="sm" target="_blank" rel="noopener noreferrer">
-          Ver no GitHub
-        </Button>
-      </div>
+      {project.repoUrl && (
+        <div className={styles.footer}>
+          <Button href={project.repoUrl} variant="outline" size="sm" target="_blank" rel="noopener noreferrer">
+            Ver no GitHub
+          </Button>
+        </div>
+      )}
     </motion.article>
   )
 }
