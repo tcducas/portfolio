@@ -2,12 +2,12 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 420px;
-  height: 420px;
-  margin-left: -210px;
-  margin-top: -210px;
-  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  margin-left: -13px;
+  margin-top: -13px;
   background: radial-gradient(circle, var(--accent-glow), transparent 70%);
+  filter: blur(3px);
   pointer-events: none;
   z-index: 5;
   mix-blend-mode: screen;
