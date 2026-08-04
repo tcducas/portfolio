@@ -47,8 +47,9 @@ export default function About() {
             viewport={revealViewport}
           >
             Estou no último semestre de Análise e Desenvolvimento de Sistemas (ADS) na ENIAC,
-            em São Paulo. Atualmente atuo como estagiário em desenvolvimento backend, trabalhando
-            com Python, Django, APIs REST e chatbots com IA generativa para e-commerce.
+            em São Paulo. Atualmente atuo como estagiário em desenvolvimento backend, construindo
+            APIs REST com Python e Django e participando de projetos de automação e inovação
+            tecnológica.
           </motion.p>
           <motion.p
             className={styles.text}
@@ -57,8 +58,23 @@ export default function About() {
             whileInView="show"
             viewport={revealViewport}
           >
-            Meu foco está em análise de dados, IA e automação de processos — com o objetivo de
-            crescer no mercado corporativo e, em paralelo, expandir para projetos freelance.
+            No dia a dia, isso significa modelar APIs com Django REST Framework, estruturar
+            autenticação e integrações, e persistir dados em PostgreSQL — muitas vezes com
+            Docker Compose pra manter o ambiente reproduzível e testes automatizados com Pytest.
+            Do lado de IA, trabalho com prompt engineering e desenvolvimento de chatbots
+            inteligentes, incluindo um projetado para navegação em e-commerce.
+          </motion.p>
+          <motion.p
+            className={styles.text}
+            variants={revealVariant}
+            initial="hidden"
+            whileInView="show"
+            viewport={revealViewport}
+          >
+            Meu foco está em análise de dados, IA e automação de processos — inclusive na forma
+            como eu mesmo trabalho, estruturando skills e pipelines próprios pra acelerar do
+            briefing ao código. O objetivo é crescer no mercado corporativo e, em paralelo,
+            expandir para projetos freelance.
           </motion.p>
         </div>
       </div>
