@@ -58,11 +58,12 @@ export const projects = [
     shortDesc:
       'Ecossistema próprio de skills de IA para acelerar criação de sites e automatizar fluxos de trabalho — o mesmo pipeline usado para construir este portfólio.',
     longDesc:
-      'Sistema de skills customizadas para Claude Code, com um framework próprio de criação de skills (4 camadas obrigatórias: trigger, exclusão, desambiguação e qualidade interna) e um pipeline de 3 estágios — briefing, referência visual e construção — para gerar landing pages a partir de 6 estruturas de wireframe reutilizáveis. Este site foi arquitetado usando exatamente esse pipeline.',
+      'Sistema de skills customizadas para Claude Code, com um framework próprio de criação de skills (4 camadas obrigatórias: trigger, exclusão, desambiguação e qualidade interna) e um pipeline de 3 estágios — briefing, referência visual e construção — para gerar landing pages a partir de 6 estruturas de wireframe reutilizáveis. A camada de referência visual é alimentada por um workflow que pesquisa e organiza automaticamente exemplos reais de design por categoria de estilo, com paleta, tipografia e estrutura documentadas. Este site foi arquitetado usando exatamente esse pipeline.',
     highlights: [
       'Framework de criação de skills com 4 camadas de auditoria',
       'Pipeline de 3 estágios para landing pages (briefing → design → build)',
       '6 estruturas de wireframe reutilizáveis (SaaS, institucional, portfólio...)',
+      'Banco de 18 referências de design (paleta, tipografia, estrutura) gerado por um workflow de pesquisa automatizada',
       'Catálogo curado de +100 skills de terceiros, organizado por categoria',
     ],
     tags: ['Prompt Engineering', 'Claude Code', 'IA Generativa', 'Automação'],
